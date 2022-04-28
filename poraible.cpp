@@ -11,7 +11,7 @@ for(double y=yy;y>yy*-1;y--)
         for(double x=xx*(-1); x<xx;x++)
         {
                 string b;
-                if(y==x*abs(x)-x-6*x)
+                if(y==x*abs(x)-x-6*x)//equation here
                 {
                 b = 'x';
                 }
