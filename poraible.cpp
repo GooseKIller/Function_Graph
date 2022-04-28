@@ -11,7 +11,7 @@ for(int y=yy;y>yy*-1;y--)
         for(int x=xx*(-1); x<xx;x++)
         {
                 string b;
-                if(y==pow(x,2)-abs(7*x-6))
+                if(y==pow(x,2)-abs(7*x-6))//add your equation here
                 {
                 b = 'x';
                 }
