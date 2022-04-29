@@ -20,16 +20,9 @@ for(double y=yy;y>yy*-1;y--)
                 else if(y==0 or x==0)
                 {
 		who = true;
-                b = y+x;
+                b = abs(y+x)+50;
                 }
-		if(!who)
-		{
-		cout<<char(b);
-		}
-		else
-		{
-		cout<<b;
-		}
+        	cout<<char(b)<<setw(2);
         }cout<<"\n";
 }
 return 0;
