@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 int xx=20,yy=xx;
-for(int i=50; i<x; i++)
+for(int i=50; i<xx+50; i++)
 {
 	cout<<i<<":"<<char(i)<<"\n";
 }
