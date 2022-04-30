@@ -1,17 +1,20 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
 int xx=20,yy=xx;
-bool who = false;
+for(int i=50; i<x; i++)
+{
+	cout<<i<<":"<<char(i)<<"\n";
+}
 for(double y=yy;y>yy*-1;y--)
 {
         for(double x=xx*(-1); x<xx;x++)
         {
-		who = false;
                 int b=32;
                 if(y==x*abs(x)-x-6*x)
                 {
@@ -19,7 +22,6 @@ for(double y=yy;y>yy*-1;y--)
                 }
                 else if(y==0 or x==0)
                 {
-		who = true;
                 b = abs(y+x)+50;
                 }
         	cout<<char(b)<<setw(2);
